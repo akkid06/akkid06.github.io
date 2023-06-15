@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_bar li{
+    float: left;
+}
+
+.nav_bar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: azure;
+}
+
+.nav_bar li a:hover {
+    background-color: blue;
+    color: azure;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: powderblue;
+}
+
+h1 {
+    border: 5px solid azure;
+    color: azure;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    color: black;
+}
+
+address {
+    border: 2px solid black;
+    text-align: left;
+    background-color: azure;
+}
